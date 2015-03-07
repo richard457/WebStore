@@ -1,0 +1,149 @@
+body{
+    background: #fff;
+    /*font-family: Verdana, Arial, Sans-Serif;*/
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+span{
+    font-family: Verdana, Arial, Sans-Serif;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 13px;
+}
+#wrapper{
+    width: 100%;
+}
+#head{
+    background: #e2e2e2;
+    height: 50px;
+    width: 100%;
+     color: #696763;
+    font-family: 'Roboto', sans-serif;
+}
+#desc-buy-detail{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.details{
+    margin-left: 890px;
+}
+#menu{
+    height: 80px;
+}
+#menu li a{
+    font-size: 37px;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 0;
+    padding-bottom: 10px;
+}
+#menu .active{
+    
+    color: orange;
+}
+#menu a:hover{
+    
+    color: orange;
+}
+#show-slider{
+    
+    min-height: 400px;
+    background:;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+#options{
+    color: #696763;
+    font-size: 24px;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    
+    min-height: 400px;
+    background: #FFFFFF;
+
+    float: left;
+    width: 30%;
+}
+#options a{
+    margin-left: -25px;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#options .option-one{
+    color: #333;
+}
+.accordion>dt{
+    margin-top: 20px;
+}
+.accordion>dt>a span{
+    margin-left: 65px;
+}
+#featured{
+    float: left;
+    width: 704.9px;
+    background: #fff;
+    min-height: 400px;
+}
+.brand-wrapper{
+    clear: left;
+    width: 75%;
+    margin-left: 240px;
+    height: 500px;
+    
+}
+.brand{
+    background: #333;
+    height: 50px;
+    border-bottom: 1px solid red;
+}
+.brand a{
+    margin-left: 45px;
+    color: #fff;
+}
+ .active-brand{
+    background: orange;
+   
+}
+li{
+}
+footer{
+    background:#333 ;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+.desc{
+    margin-top: 80px;
+}
+.featured:hover .product-overlay{
+    display: block;
+    height: 100%;
+}
+.product-overlay{
+    background: #FE980F;
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+    opacity: ;
+}
